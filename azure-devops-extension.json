@@ -1,0 +1,40 @@
+{
+    "manifestVersion": 1,
+    "id": "a24c8db1-07e4-4c35-b776-c3678abbb376",
+    "publisher": "DinomiteStudios",
+    "version": "1.0.141",
+    "name": "mite for Azure DevOps",
+    "preview": true,
+    "description": "This extension will add time tracking features to your Azure DevOps organization powered by mite. Learn more about mite, please visit [their website](https://mite.yo.lk/).",
+    "private": true,
+    "categories": [
+        "Azure Repos",
+        "Azure Boards",
+        "Azure Pipelines",
+        "Azure Test Plans",
+        "Azure Artifacts"
+    ],
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],
+    "icons": {
+        "default": "logo.png"
+    },
+    "content": {
+        "details": {
+            "path": "overview.md"
+        }
+    },
+    "files": [
+        {
+            "path": "static",
+            "addressable": true
+        },
+        {
+            "path": "dist",
+            "addressable": true
+        }
+    ]
+}

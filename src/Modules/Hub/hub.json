@@ -1,0 +1,20 @@
+{
+    "contributions": [
+        {
+            "id": "dinomite.azuredevops-mite-hub-group",
+            "type": "ms.vss-web.hub-group",
+            "description": "Adds a mite hub group at the project/team-level.",
+            "targets": [
+                "ms.vss-web.project-hub-groups-collection"
+            ],
+            "properties": {
+                "name": "mite",
+                "icon": {
+                    "light": "asset://static/mite-hub-group-icon.png",
+                    "dark": "asset://static/mite-hub-group-icon.png"
+                },
+                "order": 100
+            }
+        }
+    ]
+}
