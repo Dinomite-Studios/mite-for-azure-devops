@@ -1,0 +1,38 @@
+@import "node_modules/azure-devops-ui/Core/_platformCommon.scss";
+
+.time-group-content {
+  font-size: 12px;
+  margin-left: 4px;
+  width: 100%;
+}
+
+.tracking-button {
+  margin-top: 4px;
+  width: 128px;
+}
+
+.tracking-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.minutes-container {
+  background-color: #dddddd;
+  border-radius: 15px;
+  font-size: 12px;
+  text-align: center;
+  font-weight: normal;
+  color: black;
+  margin-right: 1px;
+  padding: 0.4em 0.8em 0.3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &.tracking {
+    background-color: #ff8215;
+    color: white;
+  }
+}

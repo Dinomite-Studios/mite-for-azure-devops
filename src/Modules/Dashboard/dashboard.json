@@ -1,0 +1,22 @@
+{
+    "contributions": [
+        {
+            "id": "dinomite.azuredevops-mite-hub-group-dashboard-hub",
+            "type": "ms.vss-web.hub",
+            "targets": [
+                ".dinomite.azuredevops-mite-hub-group"
+            ],
+            "includes": [
+                "ms.vss-tfs-web.tfs-page-data-service",
+                "ms.vss-features.extension-data-service"
+            ],
+            "properties": {
+                "name": "Dashboard",
+                "uri": "dist/Dashboard/Dashboard.html",
+                "icon": "asset://static/dashboard-hub-icon.png",
+                "supportsMobile": true,
+                "order": 0
+            }
+        }
+    ]
+}

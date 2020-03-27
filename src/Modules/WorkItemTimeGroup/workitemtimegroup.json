@@ -1,0 +1,17 @@
+{
+    "contributions": [
+        {
+            "id": "dinomite.azuredevops-mite-work-item-form-group",
+            "type": "ms.vss-work-web.work-item-form-group",
+            "description": "mite time tracking work item form group.",
+            "targets": [
+                "ms.vss-work-web.work-item-form"
+            ],
+            "properties": {
+                "name": "mite",
+                "uri": "dist/WorkItemTimeGroup/WorkItemTimeGroup.html",
+                "height": 100
+            }
+        }
+    ]
+}

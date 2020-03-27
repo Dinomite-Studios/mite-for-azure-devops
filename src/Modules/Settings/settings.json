@@ -1,0 +1,22 @@
+{
+    "contributions": [
+        {
+            "id": "dinomite.azuredevops-mite-hub-group-settings-hub",
+            "type": "ms.vss-web.hub",
+            "targets": [
+                ".dinomite.azuredevops-mite-hub-group"
+            ],
+            "includes": [
+                "ms.vss-tfs-web.tfs-page-data-service",
+                "ms.vss-features.extension-data-service"
+            ],
+            "properties": {
+                "name": "Settings",
+                "uri": "dist/Settings/Settings.html",
+                "icon": "asset://static/settings-hub-icon.png",
+                "supportsMobile": true,
+                "order": 1
+            }
+        }
+    ]
+}

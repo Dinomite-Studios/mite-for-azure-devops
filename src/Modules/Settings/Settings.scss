@@ -1,0 +1,63 @@
+@import "node_modules/azure-devops-ui/Core/_platformCommon.scss";
+
+.settings-hub {
+  font-size: $fontSizeM;
+}
+
+.setting-description {
+  max-width: 500px;
+}
+
+.setting-label {
+  font-weight: bold;
+  margin-bottom: -8px;
+}
+
+.spacer {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  display: flex;
+}
+
+/// #region Settings Hub Group (Master-Detail) Styles
+
+.setting-page-list-item {
+  padding-left: 20px;
+  height: 32px;
+}
+
+/// #endregion Settings Hub Group (Master-Detail) Styles
+
+/// #region Project Settings Hub Styles
+
+.auth-invalid-warning {
+  color: orange;
+  font-weight: bold;
+  margin-bottom: 32px;
+}
+
+.setting-dropdown {
+  width: 300px;
+}
+
+/// #endregion Project Settings Hub Styles
+
+/// #region General Settings Hub Styles
+
+.connection-failed-hint {
+  color: red;
+  font-style: italic;
+  margin-top: 16px;
+}
+
+.connection-succeeded-hint {
+  color: green;
+  font-style: italic;
+  margin-top: 16px;
+}
+
+.test-connection-button {
+  margin-top: 16px;
+}
+
+/// #endregion General Settings Hub Styles
